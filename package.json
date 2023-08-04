@@ -1,0 +1,15 @@
+{
+  "name": "cypress-auotmation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.3",
+    "git": "^0.1.5"
+  }
+}
