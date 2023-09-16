@@ -30,6 +30,14 @@ describe('Orange hrm demo ', ()=>{
         .should('be.visible')
         .contains('Dashboard');
 
-    
+
+        cy.get('input[placeholder="Search"]')
+        .should('be.visible')
+        .type('PIM').should('have.value', 'PIM')
+
+        cy.get('span.oxd-text.oxd-text--span.oxd-main-menu-item--name').should('be.visible')
+
     })
+
+   
 })

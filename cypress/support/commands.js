@@ -27,3 +27,13 @@
 
 ///const cypress = require("cypress")
 
+
+Cypress.Commands.add('getifrmae', (iframelocator)=>{
+    return cy.get(iframelocator)
+    .its('0.contentDocument.body')
+    .should('be.visible')
+    .then(cy.wrap);
+
+})
+
+
